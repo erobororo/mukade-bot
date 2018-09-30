@@ -6,36 +6,17 @@ client.on("ready", () => {
 });
 
 
-let pre1 = "mukade";
-let pre2 = "Mukade";
-let pre3 = "muka";
-let pre4 = "Muka";
+let prefix = "m!";
+
 
 client.on("message", (message) => {
 
-  if (!message.content.startsWith(pre1) || message.author.bot) return;
-  if (!message.content.startsWith(pre2) || message.author.bot) return;
-  if (!message.content.startsWith(pre3) || message.author.bot) return;
-  if (!message.content.startsWith(pre4) || message.author.bot) return;
+  if (!message.content.startsWith(prefix) || message.author.bot) return;
 
 
-
-
-  if (message.content.startsWith(pre1 + "-chan")) {
-    message.channel.send("...cha..........");
-  } else
-
-  if (message.content.startsWith(pre1 + "-chan")) {
-    message.channel.send("...cha....n?......");
-  } else
-
-  if (message.content.startsWith(pre3 + "-chan")) {
-    message.channel.send(".........peh...");
-  } else
-
-  if (message.content.startsWith(pre4 + "-chan")) {
-    message.channel.send("//Peh!?..........");
-  }
+  if (message.content.startsWith(prefix + "help")) {
+    message.reply("Peh! (I`m here to have a little fun, though I do scare easily. Let`s try each other out...shall we?)");
+  } 
 
 });
 
@@ -47,7 +28,7 @@ client.on("message", (message) => {
 
 
   if (message.content.includes("i love you muka")) {
-    message.channel.send("..................///....");
+    message.channel.send("..................peh//....");
   } else
 
   if (message.content.includes("I love you muka")) {
@@ -55,19 +36,75 @@ client.on("message", (message) => {
   } else
 
   if (message.content.includes("i love you Muka")) {
-    message.channel.send("............ah!//");
+    message.channel.send("............ah");
   } else
 
   if (message.content.includes("I love you Muka")) {
     message.channel.send("..........ah.....");
   } else
 
+  if (message.content.includes("muka i love you")) {
+    message.channel.send("..................peh//....");
+  } else
+
+  if (message.content.includes("muka I love you")) {
+    message.channel.send(".....Peh?!///..............");
+  } else
+
+  if (message.content.includes("Muka i love you")) {
+    message.channel.send("............ah");
+  } else
+
+  if (message.content.includes("Muka I love you")) {
+    message.channel.send("..........ah.....");
+  } else
 
 
+  if (message.content.includes("mukade i love you")) {
+    message.channel.send("..................peh//....");
+  } else
+
+  if (message.content.includes("mukade-chan I love you")) {
+    message.channel.send(".....Peh?!///..............");
+  } else
+
+  if (message.content.includes("Muka-chan i love you")) {
+    message.channel.send("............ah");
+  } else
+
+  if (message.content.includes("Mukade-chan I love you")) {
+    message.channel.send("..........ah.....");
+  } else
+
+  if (message.content.includes("muka-chan i love you")) {
+    message.channel.send("..................peh//....");
+  } else
+
+  if (message.content.includes("Mukade I love you")) {
+    message.channel.send("..........ah.....");
+  } else
+
+
+
+ if (message.content.includes("mukade-chan")) {
+    message.channel.send("......cha...?");
+  } else
+
+ if (message.content.includes("Mukade-chan")) {
+    message.channel.send(".........cha...?");
+  } else
+
+   if (message.content.includes("muka-chan")) {
+    message.channel.send("......cha...n..?");
+  } else
+
+ if (message.content.includes("Muka-chan")) {
+    message.channel.send(".........cha......");
+  } else
 
 
   if (message.content.includes("peh")) {
-    message.channel.send("Peh!");
+    message.channel.send("peh!");
   } else
 
   if (message.content.includes("Peh")) {
@@ -79,7 +116,7 @@ client.on("message", (message) => {
   } else
 
   if (message.content.includes("Fuck")) {
-    message.channel.send("...");
+    message.channel.send("......");
   } else
 
 
