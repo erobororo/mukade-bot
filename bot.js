@@ -11,11 +11,12 @@ client.on("message", (message) => {
   if (!message.content.startsWith(love) || message.author.bot) return;
 
   if (message.content.startsWith(love + "mukade")) {
-    message.channel.send("pong!");
+    message.channel.send(".................!");
   } else
+
   if (message.content.startsWith(love + "muka")) {
     message.channel.send("..................///");
-  }
+  } else
 
   if (message.content.includes("peh")) {
     message.channel.send("Peh!");
