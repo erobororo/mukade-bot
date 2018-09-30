@@ -21,6 +21,13 @@ client.on("message", (message) => {
 });
 
 
+client.on("message", (message) => {
+
+  if (message.content.includes("https://cdn.discordapp.com/attachments/495806477995343882/495897042111954944/socold.gif")) {
+    message.channel.send("hhaise....aahahah...");
+  } 
+
+});
 
 client.on("message", (message) => {
 
