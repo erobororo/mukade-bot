@@ -5,21 +5,11 @@ client.on("ready", () => {
   console.log("I am ready!");
 });
 
-let love1 = "I love you ";
-let love2 = "i love you ";
-let love3 = "I love you, ";
-let love4 = "i love you, ";
-let love5 = "we love you "
-let love6 = "We love you ";
-let love7 = "We love you, ";
-let love8 = "we love you, ";
+
 let pre1 = "mukade";
 let pre2 = "Mukade";
 let pre3 = "muka";
 let pre4 = "Muka";
-
-
-
 client.on("message", (message) => {
 
   if (!message.content.startsWith(pre1) || message.author.bot) return;
@@ -50,7 +40,14 @@ client.on("message", (message) => {
 
 
 
-
+let love1 = "I love you ";
+let love2 = "i love you ";
+let love3 = "I love you, ";
+let love4 = "i love you, ";
+let love5 = "we love you "
+let love6 = "We love you ";
+let love7 = "We love you, ";
+let love8 = "we love you, ";
 client.on("message", (message) => {
 
   if (!message.content.startsWith(love1) || message.author.bot) return;
@@ -67,259 +64,259 @@ client.on("message", (message) => {
 
 
   if (message.content.startsWith(love1 + "mukade")) {
-    message.reply(".................!!//");
+    message.channel.send(".................!!//");
   } else
 
   if (message.content.startsWith(love1 + "muka")) {
-    message.reply("..................///");
+    message.channel.send("..................///");
   } else
 
   if (message.content.startsWith(love1 + "mukade-chan")) {
-    message.reply("..................///");
+    message.channel.send("..................///");
   } else
 
   if (message.content.startsWith(love1 + "Mukade")) {
-    message.reply(".................!");
+    message.channel.send(".................!");
   } else
 
   if (message.content.startsWith(love1 + "Muka")) {
-    message.reply("..................peh//");
+    message.channel.send("..................peh//");
   } else
 
   if (message.content.startsWith(love1 + "Mukade-chan")) {
-    message.reply("..................ah!....");
+    message.channel.send("..................ah!....");
   } else
 
   if (message.content.startsWith(love1 + "muka-chan")) {
-    message.reply("..................//////");
+    message.channel.send("..................//////");
   } else
 
   if (message.content.startsWith(love1 + "Muka-chan")) {
-    message.reply("..................?!//");
+    message.channel.send("..................?!//");
   } else
 
   if (message.content.startsWith(love2 + "mukade")) {
-    message.reply(".................!!//");
+    message.channel.send(".................!!//");
   } else
 
   if (message.content.startsWith(love2 + "muka")) {
-    message.reply("..................///");
+    message.channel.send("..................///");
   } else
 
   if (message.content.startsWith(love2 + "mukade-chan")) {
-    message.reply("..................///");
+    message.channel.send("..................///");
   } else
 
   if (message.content.startsWith(love2 + "Mukade")) {
-    message.reply(".................!");
+    message.channel.send(".................!");
   } else
 
   if (message.content.startsWith(love2 + "Muka")) {
-    message.reply("..................peh//");
+    message.channel.send("..................peh//");
   } else
 
   if (message.content.startsWith(love2 + "Mukade-chan")) {
-    message.reply("..................ah!....");
+    message.channel.send("..................ah!....");
   } else
 
   if (message.content.startsWith(love2 + "muka-chan")) {
-    message.reply("..................//////");
+    message.channel.send("..................//////");
   } else
 
   if (message.content.startsWith(love2 + "Muka-chan")) {
-    message.reply("..................?!//");
+    message.channel.send("..................?!//");
   } else
 
   if (message.content.startsWith(love3 + "mukade")) {
-    message.reply(".................!!//");
+    message.channel.send(".................!!//");
   } else
 
   if (message.content.startsWith(love3 + "muka")) {
-    message.reply("..................///");
+    message.channel.send("..................///");
   } else
 
   if (message.content.startsWith(love3 + "mukade-chan")) {
-    message.reply("..................///");
+    message.channel.send("..................///");
   } else
 
   if (message.content.startsWith(love3 + "Mukade")) {
-    message.reply(".................!");
+    message.channel.send(".................!");
   } else
 
   if (message.content.startsWith(love3 + "Muka")) {
-    message.reply("..................peh//");
+    message.channel.send("..................peh//");
   } else
 
   if (message.content.startsWith(love3 + "Mukade-chan")) {
-    message.reply("..................ah!....");
+    message.channel.send("..................ah!....");
   } else
 
   if (message.content.startsWith(love3 + "muka-chan")) {
-    message.reply("..................//////");
+    message.channel.send("..................//////");
   } else
 
   if (message.content.startsWith(love3 + "Muka-chan")) {
-    message.reply("..................?!//");
+    message.channel.send("..................?!//");
   } else
 
   if (message.content.startsWith(love4 + "mukade")) {
-    message.reply(".................!!//");
+    message.channel.send(".................!!//");
   } else
 
   if (message.content.startsWith(love4 + "muka")) {
-    message.reply("..................///");
+    message.channel.send("..................///");
   } else
 
   if (message.content.startsWith(love4 + "mukade-chan")) {
-    message.reply("..................///");
+    message.channel.send("..................///");
   } else
 
   if (message.content.startsWith(love4 + "Mukade")) {
-    message.reply(".................!");
+    message.channel.send(".................!");
   } else
 
   if (message.content.startsWith(love4 + "Muka")) {
-    message.reply("..................peh//");
+    message.channel.send("..................peh//");
   } else
 
   if (message.content.startsWith(love4 + "Mukade-chan")) {
-    message.reply("..................ah!....");
+    message.channel.send("..................ah!....");
   } else
 
   if (message.content.startsWith(love4 + "muka-chan")) {
-    message.reply("..................//////");
+    message.channel.send("..................//////");
   } else
 
   if (message.content.startsWith(love4 + "Muka-chan")) {
-    message.reply("..................?!//");
+    message.channel.send("..................?!//");
   } else
 
   if (message.content.startsWith(love5 + "mukade")) {
-    message.reply(".................!!//");
+    message.channel.send(".................!!//");
   } else
 
   if (message.content.startsWith(love5 + "muka")) {
-    message.reply("..................///");
+    message.channel.send("..................///");
   } else
 
   if (message.content.startsWith(love5 + "mukade-chan")) {
-    message.reply("..................///");
+    message.channel.send("..................///");
   } else
 
   if (message.content.startsWith(love5 + "Mukade")) {
-    message.reply(".................!");
+    message.channel.send(".................!");
   } else
 
   if (message.content.startsWith(love5 + "Muka")) {
-    message.reply("..................peh//");
+    message.channel.send("..................peh//");
   } else
 
   if (message.content.startsWith(love5 + "Mukade-chan")) {
-    message.reply("..................ah!....");
+    message.channel.send("..................ah!....");
   } else
 
   if (message.content.startsWith(love5 + "muka-chan")) {
-    message.reply("..................//////");
+    message.channel.send("..................//////");
   } else
 
   if (message.content.startsWith(love5 + "Muka-chan")) {
-    message.reply("..................?!//");
+    message.channel.send("..................?!//");
   } else
 
   if (message.content.startsWith(love6 + "mukade")) {
-    message.reply(".................!!//");
+    message.channel.send(".................!!//");
   } else
 
   if (message.content.startsWith(love6 + "muka")) {
-    message.reply("..................///");
+    message.channel.send("..................///");
   } else
 
   if (message.content.startsWith(love6 + "mukade-chan")) {
-    message.reply("..................///");
+    message.channel.send("..................///");
   } else
 
   if (message.content.startsWith(love6 + "Mukade")) {
-    message.reply(".................!");
+    message.channel.send(".................!");
   } else
 
   if (message.content.startsWith(love6 + "Muka")) {
-    message.reply("..................peh//");
+    message.channel.send("..................peh//");
   } else
 
   if (message.content.startsWith(love6 + "Mukade-chan")) {
-    message.reply("..................ah!....");
+    message.channel.send("..................ah!....");
   } else
 
   if (message.content.startsWith(love6 + "muka-chan")) {
-    message.reply("..................//////");
+    message.channel.send("..................//////");
   } else
 
   if (message.content.startsWith(love6 + "Muka-chan")) {
-    message.reply("..................?!//");
+    message.channel.send("..................?!//");
   } else
 
   if (message.content.startsWith(love7 + "mukade")) {
-    message.reply(".................!!//");
+    message.channel.send(".................!!//");
   } else
 
   if (message.content.startsWith(love7 + "muka")) {
-    message.reply("..................///");
+    message.channel.send("..................///");
   } else
 
   if (message.content.startsWith(love7 + "mukade-chan")) {
-    message.reply("..................///");
+    message.channel.send("..................///");
   } else
 
   if (message.content.startsWith(love7 + "Mukade")) {
-    message.reply(".................!");
+    message.channel.send(".................!");
   } else
 
   if (message.content.startsWith(love7 + "Muka")) {
-    message.reply("..................peh//");
+    message.channel.send("..................peh//");
   } else
 
   if (message.content.startsWith(love7 + "Mukade-chan")) {
-    message.reply("..................ah!....");
+    message.channel.send("..................ah!....");
   } else
 
   if (message.content.startsWith(love7 + "muka-chan")) {
-    message.reply("..................//////");
+    message.channel.send("..................//////");
   } else
 
   if (message.content.startsWith(love7 + "Muka-chan")) {
-    message.reply("..................?!//");
+    message.channel.send("..................?!//");
   } else
 
   if (message.content.startsWith(love8 + "mukade")) {
-    message.reply(".................!!//");
+    message.channel.send(".................!!//");
   } else
 
   if (message.content.startsWith(love8 + "muka")) {
-    message.reply("..................///");
+    message.channel.send("..................///");
   } else
 
   if (message.content.startsWith(love8 + "mukade-chan")) {
-    message.reply("..................///");
+    message.channel.send("..................///");
   } else
 
   if (message.content.startsWith(love8 + "Mukade")) {
-    message.reply(".................!");
+    message.channel.send(".................!");
   } else
 
   if (message.content.startsWith(love8 + "Muka")) {
-    message.reply("..................peh//");
+    message.channel.send("..................peh//");
   } else
 
   if (message.content.startsWith(love8 + "Mukade-chan")) {
-    message.reply("..................ah!....");
+    message.channel.send("..................ah!....");
   } else
 
   if (message.content.startsWith(love8 + "muka-chan")) {
-    message.reply("..................//////");
+    message.channel.send("..................//////");
   } else
 
   if (message.content.startsWith(love8 + "Muka-chan")) {
-    message.reply("..................?!//");
+    message.channel.send("..................?!//");
   } 
 
 });
