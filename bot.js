@@ -46,22 +46,6 @@ client.on("message", (message) => {
   if (message.author.bot) return;
 
 
-  if (message.content.includes("I love you, Muka")) {
-    message.channel.send("..................peh?....");
-  } else
-
-  if (message.content.includes("I love you, Muka-chan")) {
-    message.channel.send("..................?!//");
-  } else
-
-    if (message.content.includes("I love you, Mukade")) {
-    message.channel.send("..................//");
-  } else
-
-  if (message.content.includes("I love you, Mukade-chan")) {
-    message.channel.send("..................peh///");
-  } else
-
   if (message.content.includes("I love you Muka")) {
     message.channel.send("..................peh?....");
   } else
@@ -78,24 +62,8 @@ client.on("message", (message) => {
     message.channel.send("..................peh///");
   } else
 
-  if (message.content.includes("I love you, muka")) {
-    message.channel.send("..................peh?....");
-  } else
-
-  if (message.content.includes("I love you, muka-chan")) {
-    message.channel.send("..................?!//");
-  } else
-
-    if (message.content.includes("I love you, mukade")) {
-    message.channel.send("..................//");
-  } else
-
-  if (message.content.includes("I love you, mukade-chan")) {
-    message.channel.send("..................peh///");
-  } else
-
   if (message.content.includes("i love you Muka")) {
-    message.channel.send("..................peh?....");
+    message.channel.send("..................//?....");
   } else
 
   if (message.content.includes("i love you Muka-chan")) {
@@ -107,22 +75,6 @@ client.on("message", (message) => {
   } else
 
   if (message.content.includes("i love you Mukade-chan")) {
-    message.channel.send("..................peh///");
-  } else
-
-  if (message.content.includes("i love you, muka")) {
-    message.channel.send("..................peh?....");
-  } else
-
-  if (message.content.includes("i love you, muka-chan")) {
-    message.channel.send("..................?!//");
-  } else
-
-    if (message.content.includes("i love you, mukade")) {
-    message.channel.send("..................//");
-  } else
-
-  if (message.content.includes("i love you, mukade-chan")) {
     message.channel.send("..................peh///");
   } else
 
