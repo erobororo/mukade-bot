@@ -15,7 +15,7 @@ client.on("message", (message) => {
 
 
   if (message.content.startsWith(prefix + "help")) {
-    message.channel.send("Peh! (I＇m here to have a little fun, though I do scare easily. Let＇s try each other out...shall we?)");
+    message.channel.send("Peh! (I’m here to have a little fun, though I do scare easily. Let’s try each other out...shall we?)");
   } 
 
 });
