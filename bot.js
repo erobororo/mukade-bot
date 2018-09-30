@@ -15,7 +15,7 @@ client.on("message", (message) => {
 
 
   if (message.content.startsWith(prefix + "help")) {
-    message.channel.send("Peh! (I’m here to have a little fun, though I do scare easily. Let’s try each other out...shall we?)");
+    message.channel.send("Peh!		(Approach with caution.)");
   } 
 
 });
@@ -145,8 +145,22 @@ client.on("message", (message) => {
     message.channel.send("Ｄ゛Ａ゛Ｒ゛Ｉ゛Ｍ゛Ａ゛　Ｋ゛Ｉ゛Ｊ゛Ｏ゛Ｕ゛");
   } 
 
+
+  if (message.content.includes("Kishou")) {
+    message.channel.send("Ｄ゛Ａ゛Ｒ゛Ｉ゛Ｍ゛Ａ゛　Ｋ゛Ｉ゛Ｊ゛Ｏ゛Ｕ゛");
+  } else
+
+  if (message.content.includes("kishou")) {
+    message.channel.send("Ｄ゛Ａ゛Ｒ゛Ｉ゛Ｍ゛Ａ゛　Ｋ゛Ｉ゛Ｊ゛Ｏ゛Ｕ゛");
+  } 
+
    
 });
+
+
+
+
+
 
 
 
