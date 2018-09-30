@@ -6,6 +6,9 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
+
+if (message.author.bot) return;
+
   if (message.content.includes("peh")) {
     message.channel.send("Peh!");
   } else
