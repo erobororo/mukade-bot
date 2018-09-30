@@ -5,9 +5,17 @@ client.on("ready", () => {
   console.log("I am ready!");
 });
 
+let love = "I love you ";
 client.on("message", (message) => {
+  // Exit and stop if the prefix is not there or if user is a bot
+  if (!message.content.startsWith(love) || message.author.bot) return;
 
-if (message.author.bot) return;
+  if (message.content.startsWith(love + "mukade")) {
+    message.channel.send("pong!");
+  } else
+  if (message.content.startsWith(love + "muka")) {
+    message.channel.send("..................///");
+  }
 
   if (message.content.includes("peh")) {
     message.channel.send("Peh!");
@@ -105,22 +113,6 @@ if (message.author.bot) return;
     message.reply("...............///");
   }
 
-  
-    if (message.substring(0, 1) == "!") {
-        var args = message.substring(1).split(" ");
-        var cmd = args[0];
-       
-        args = args.splice(1);
-        switch(cmd) {
-
-            case 'help':
-                bot.sendMessage({
-                    to: channelID,
-                    message: "AAAAAAAAAAAAAAAAAAAA"
-                });
-            break;
-        }
-    }
    
 });
 
