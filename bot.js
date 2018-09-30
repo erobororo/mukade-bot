@@ -13,6 +13,43 @@ let love5 = "we love you "
 let love6 = "We love you ";
 let love7 = "We love you, ";
 let love8 = "we love you, ";
+let pre1 = "mukade";
+let pre2 = "Mukade";
+let pre3 = "muka";
+let pre4 = "Muka";
+
+
+
+client.on("message", (message) => {
+
+  if (!message.content.startsWith(pre1) || message.author.bot) return;
+  if (!message.content.startsWith(pre2) || message.author.bot) return;
+  if (!message.content.startsWith(pre3) || message.author.bot) return;
+  if (!message.content.startsWith(pre4) || message.author.bot) return;
+
+
+
+
+  if (message.content.includes(pre1 + "-chan")) {
+    message.channel.send("...cha..........");
+  } else
+
+  if (message.content.includes(pre1 + "-chan")) {
+    message.channel.send("...cha....n?......");
+  } else
+
+  if (message.content.includes(pre3 + "-chan")) {
+    message.channel.send(".........peh...");
+  } else
+
+  if (message.content.includes(pre4 + "-chan")) {
+    message.channel.send("//Peh!?..........");
+  }
+
+});
+
+
+
 
 client.on("message", (message) => {
 
@@ -24,6 +61,8 @@ client.on("message", (message) => {
   if (!message.content.startsWith(love6) || message.author.bot) return;
   if (!message.content.startsWith(love7) || message.author.bot) return;
   if (!message.content.startsWith(love8) || message.author.bot) return;
+
+
 
 
 
@@ -155,7 +194,7 @@ client.on("message", (message) => {
     message.reply("..................?!//");
   } else
 
-if (message.content.startsWith(love5 + "mukade")) {
+  if (message.content.startsWith(love5 + "mukade")) {
     message.reply(".................!!//");
   } else
 
@@ -289,6 +328,9 @@ if (message.content.startsWith(love5 + "mukade")) {
 
 client.on("message", (message) => {
 
+  if (message.author.bot) return;
+
+
 
   if (message.content.includes("peh")) {
     message.channel.send("Peh!");
@@ -314,13 +356,6 @@ client.on("message", (message) => {
     message.channel.send("...");
   } else
 
-  if (message.content.includes("i love mukade")) {
-    message.channel.send("...?!");
-  } else
-
-  if (message.content.includes("I love mukade")) {
-    message.channel.send("...?!");
-  } else
 
   if (message.content.includes("Arima")) {
     message.channel.send("Ｄ゛Ａ゛Ｒ゛Ｉ゛Ｍ゛Ａ゛　Ｋ゛Ｉ゛Ｊ゛Ｏ゛Ｕ゛");
