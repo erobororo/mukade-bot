@@ -340,14 +340,6 @@ client.on("message", (message) => {
     message.channel.send("Peh!");
   } else
 
-  if (message.content.includes("muka")) {
-    message.channel.send("Peh?");
-  } else
-
-  if (message.content.includes("Muka")) {
-    message.channel.send("Peh?");
-  } else
-
   if (message.content.includes("fuck")) {
     message.channel.send("...");
   } else
