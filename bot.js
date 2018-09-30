@@ -103,6 +103,23 @@ client.on("message", (message) => {
   } else
 
 
+ if (message.content.includes("mukadechan")) {
+    message.channel.send("......cha...?");
+  } else
+
+ if (message.content.includes("Mukadechan")) {
+    message.channel.send(".........cha...?");
+  } else
+
+   if (message.content.includes("mukachan")) {
+    message.channel.send("......cha...n..?");
+  } else
+
+ if (message.content.includes("Mukachan")) {
+    message.channel.send(".........cha......");
+  } else
+
+
   if (message.content.includes("peh")) {
     message.channel.send("peh!");
   } else
